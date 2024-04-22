@@ -1,0 +1,53 @@
+
+h1{
+    animation: change 2.3s infinite;
+    padding: 15px;
+    margin: 10px;
+}
+h2:hover{
+    animation: change 2.3s infinite;
+    }
+#portrait{
+    width: 200px;
+}
+
+#projectPic{
+    width: 350px;
+}
+#pphs{
+    width: 800px;
+}
+
+@keyframes change{
+    0%{
+        color: red;
+    }
+    10%{
+        color: orange;
+    }
+    25%{
+        color: yellow;
+    }
+
+    50%{
+        color: greenyellow;
+    }
+
+    75%{
+        color: blue;
+    }
+
+    100%{
+        color: red;
+    }
+}
+
+html{
+    background-color: goldenrod;
+}
+
+.project{
+    border: 2px solid black;
+    margin: 15px;
+    padding: 15px;
+}
